@@ -1,0 +1,119 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #EBBAB9;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/*header*/
+#header-nav {
+  background-color: #2DC7FF;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 5px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Oxygen', serif;
+  color: #08415C;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 5;
+  line-height: .75;
+}
+
+/*Linked title but messes with list alignment*/
+/*.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;*/
+
+#nav-list {
+  margin-top: 0px;
+  background-color: #0081AF;
+}
+
+
+
+
+#nav-list a {
+  color: black;
+  text-align: center;
+
+}
+
+
+/*The menu classes. With borders, but little spacing at the bottom*/
+#nav-list a span {
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+  font-size: 1.5em;
+
+}
+
+
+
+
+
+
+.navbar-collapse { /*Making lines flush with browser just CANT get the background color to show AND the button to dissapear once expanded*/
+  padding: 0;
+  overflow: hidden;
+
+}
+
+
+
+/*Styling & Bordering the button ITSELF*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+
+/*End Header*/
+
+
+.box {
+    background-color: #B5FFE1;
+    border: 1px solid black;
+    padding: 5px;
+    position: relative;
+    width: 90%;
+    margin: 15px auto;
+    overflow: visible;
+    color: #000;
+}
+
+.title {
+    padding: 5px 50px;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+
+
+}
+
+/*
+
+Before messing with gpt
+
+#0081AF - Cerulean
+#00ABE7 - Piction Blue
+#2DC7FF - Sky blue
+#EAD2AC - Wheat
+#EABA6B Earth yellow
+ */
